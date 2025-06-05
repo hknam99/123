@@ -1154,7 +1154,6 @@ def handle_telegram_updates():
                             f"{EMOJI['team']} Liên hệ admin để báo lỗi: t.me/hknamvip"
                         )
                         edit_message_text(chat_id, message_id, help_message)
-                   continue
                                 # Xử lý tin nhắn thông thường
                 if "message" in update:
                     message = update["message"]
